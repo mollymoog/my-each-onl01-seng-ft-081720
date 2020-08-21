@@ -12,5 +12,6 @@ def my_each(array)
     
   else
     "fu no block"
+  end
     
 end
