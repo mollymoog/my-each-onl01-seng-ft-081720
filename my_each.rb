@@ -1,5 +1,6 @@
 def my_each(array)
-  if 
+  
+  if block_given? 
     i = 0 
   
   
@@ -7,6 +8,9 @@ def my_each(array)
       yield array[i]
       i += 1 
     end
-  
+    array
+    
+  else
+    "fu no block"
     
 end
